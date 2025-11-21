@@ -1,0 +1,75 @@
+body{
+    background-image: url(backgroundImage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+header{
+    display: flex;
+    gap: 500px;
+}
+.nav{
+    display: flex;
+    gap: 50px;
+    margin-left: 30px;
+
+} 
+a{
+    text-decoration: none;
+    color: white;
+} 
+ a:hover{
+    color: green;
+}
+.login-button{
+    background: rgb(234, 104, 104);
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 5px;
+    
+
+}
+.right-side{
+    display: flex;
+    gap: 50px;
+    align-items:center;
+    
+}
+.input-container{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    margin: 0 50px;
+    border-radius: 10px;
+}
+input{
+    background: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+
+}
+hr{
+    width: 300px;
+}
+input::placeholder{
+    color: rgb(227, 212, 212);
+}
+.sign-button{
+    margin-top: 20px;
+    padding: 5px;
+    width: 80px;
+    color: rgb(244, 108, 108);
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.sign-button:hover{
+    opacity: 0.5;
+}
