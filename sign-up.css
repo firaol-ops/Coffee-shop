@@ -46,6 +46,10 @@ a{
     color: white;
     margin: 0 50px;
     border-radius: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 40px;
+
 }
 input{
     background: transparent;
