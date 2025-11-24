@@ -1,0 +1,84 @@
+body{
+    background-image: url(buna2.jpeg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    gap: 500px;
+}
+.nav{
+    display: flex;
+    gap: 50px;
+    margin-left: 30px;
+
+} 
+a{
+    text-decoration: none;
+    color:white;
+} 
+ a:hover{
+    color: green;
+}
+.login-button{
+    background: rgb(234, 104, 104);
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 5px;
+    
+
+}
+.right-side{
+    display: flex;
+    gap: 50px;
+    align-items:center;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    background-color: black;
+}
+.main{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    
+}
+.logo-container{
+
+    
+    
+    color: white;
+    align-items: center;
+}
+.hot{
+   display: flex; 
+   color: dodgerblue;
+
+}
+h3{
+    color:rgb(227, 77, 77);
+}
+pre{
+color: lightgreen;
+font-weight: bold;
+} 
+.firaol{
+    color:rgb(229, 155, 155);
+    margin-left: 35px;
+    font-size: 30px;
+    margin-bottom: 0;
+
+    width: 120px;
+    border-radius: 60px;
+    background: rgb(76, 76, 92);
+}
