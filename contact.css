@@ -1,9 +1,17 @@
 body{
     background: gray;
+    padding-top: 80px;
 }
 header{
     display: flex;
     gap: 500px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0; 
+    background: rgba(158, 138, 136, 0.5);
+    backdrop-filter: blur(15px);
+
 }
 .nav{
     display: flex;
@@ -54,6 +62,10 @@ button{
     border: 1px solid lightgreen;
     background: transparent;
     padding: 5px;
+} 
+.send-button:hover{
+    background: lightgreen;
+    
 }
 .info{
     display: flex;
@@ -66,3 +78,49 @@ button{
     gap: 15px;
     margin-top: 20px;
 } 
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px; /* reduce huge gap */
+        text-align: center;
+    }
+
+    .nav {
+        gap: 20px;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .right-side {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container {
+        grid-template-columns: 1fr; /* stack on top of each other */
+        text-align: center;
+    }
+
+    input {
+        width: 90%; /* fit smaller screens */
+    }
+
+    .message {
+        width: 90%;
+    }
+
+    button {
+        width: 90%;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .info {
+        flex-direction: column;
+        text-align: center;
+    }
+}

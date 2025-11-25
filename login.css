@@ -24,3 +24,17 @@
     .log2-button:hover{
         color: rgb(206, 59, 206);
     }
+
+@media (max-width: 600px) {
+    .inputer {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: auto; 
+        padding: 20px;    
+    }
+
+    .log2-button {
+        width: 80%;
+        font-size: 18px;
+    }
+}
